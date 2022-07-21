@@ -1,0 +1,318 @@
+* {
+    font-family:sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    width:970px;
+    height: 780px;
+    background-color: #1e415e ;
+    display: block;
+    margin-left:150px;
+    margin-right: 20px; 
+}
+
+header {
+    padding: 2px 20px;
+    height: 50px;
+}
+
+section, 
+div, 
+#description, 
+#description ul, 
+#description p, 
+span#soc,
+span#soc a{
+    display: inline-block;
+}
+
+img {
+    width: 250px;
+    height: 60px;
+    margin: 4px 0;
+}
+
+#social {
+    display: inline-block;
+    vertical-align: top;
+    width: 410px;
+    height: 52px;
+    margin: 12px 20px 0 0;
+    position: relative;
+    bottom:3px;
+    left: 262px;
+}
+
+    #social form {
+        display: inline-block;
+        padding: 2px 2px 2px 6px;
+        height:45px;
+        width: 320px;
+        position: absolute;
+        border-radius: 2px;
+        background-color: #1e2933;
+        border-radius: 4px;
+    }
+    #social form input {
+        width: 200px;
+        height: 23px;
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+header form button {
+    background-color: #346fa1;
+    color: white;
+    height: 28px;
+    border: 1px solid  #346fa1;
+    border-radius: 4px;
+}
+
+span#socialize {
+    display: inline-block;
+    width: 18px;
+    height: 48px;
+    vertical-align: middle;
+    border-left:2px solid #2c363e;
+    position: relative;
+    left:6px;
+}
+
+span#socialize a {
+    color: rgb(227, 224, 224);
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 17px;
+    padding-left:8px;
+    font-size: 12px;
+}
+
+#donate {
+    position: relative;
+    background-color: yellow;
+    border-radius: 4px;
+    border: none;
+    font-size: 12px;
+    padding:8px 6px;
+    margin:2px 10px 0 10px;
+    color:gray;
+    top: 8px;
+}
+
+nav {
+    background-color: #346fa1;
+    display: inline-block;
+    width: 920px;
+    height: 40px;
+    margin:20px 20px;
+    border-radius: 10px;
+    font-size: 0;
+    border-top: 1px solid #4d86b8;
+    text-align: center;
+}
+
+    nav a {
+        display: inline-block;
+        text-align: center;
+        height: 28px;
+        width: 112px;
+        color: #d3dde6;
+        text-decoration: none;
+        padding-top: 12px;
+        border-left: 1px solid #2b5b84;
+        font-size: 12px;
+        border-spacing: -2px;
+    }
+    nav a:first-child {
+        width: 75px;
+    }
+    nav a:last-child {
+        border-right: 1px solid #2b5b84;
+    }
+    nav a:hover {
+        background-color: #29669c;
+    }
+
+#description {
+    width: 350px;
+    position: relative;
+    left: 70px;
+    bottom:100px;
+}
+    #description ul {
+        display: inline-block;
+        margin-bottom:2px;
+    }
+    #description ul li {
+        color: #f6c934;
+        list-style-type: none;
+        font-weight: bold;
+        font-size:16px;
+        margin-bottom: 4px;
+    }
+    #description p {
+        color: rgb(221, 221, 221);
+        font-size: 12px;
+        margin-left:40px;
+    }
+
+#information {
+    background-color: white;
+    position: relative;
+    bottom: 70px;
+    padding: 20px 2px 40px 2px;
+    margin-bottom:10px;
+    width: 965px;
+}
+    #information h2 {
+        display: inline-block;
+        font-weight: lighter;
+        color: #0b0e0f;
+    }
+
+#news, #usages {
+    display: inline-block;
+    height: 200px;
+    border-top:3px solid #4397e0;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+#news {
+    position: relative;
+    bottom:9px;
+    left:30px;
+    width: 430px;
+}
+    #news  a {
+        color:rgb(192, 188, 188);
+        font-size: 11px;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    #news div a {
+    position: relative;
+    left: 278px;
+    }
+    #news a span, #usages a span {
+        display: inline-block;
+        letter-spacing: -2px;
+        height: 6px;
+        text-decoration: none;
+    }
+    #news p{
+        display: inline-block;
+        height: 10px;
+        margin-top:2px;
+        width: 438px;
+        height: 25px;
+        border-bottom: 1px solid #bebaba;
+    }
+    #news div {
+        border-bottom: 1px solid rgb(154, 154, 154);
+        display: inline-block;
+        width: 428px;
+        height: 50px;
+        margin-bottom: 10px;    
+    }
+
+.news-items {
+    margin-left:35px;
+}
+
+section#news p a {
+    display: inline-block;   
+    color: #3776ab;
+    font-size: 11px;
+}
+
+section img {
+    width: 460px;
+    height: 250px;
+    position: relative;
+    left:120px;
+    bottom:20px;
+    overflow-wrap: normal;
+    z-index: 1;
+}
+
+#usages {
+    position: relative;
+    bottom:9px;
+    left: 70px;
+    width: 430px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    #usages a span {
+        display: inline-block;
+        letter-spacing: -2px;
+        height: 6px;
+    }
+    #usages div a {
+        position: relative;
+        left: 237px;    
+        color:rgb(192, 188, 188);
+        font-size: 11px;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    #usages p {
+        display: inline-block;
+        font-weight: bold;
+        width: 428px;
+        height: 25px;
+        margin-top:2px;
+        border-bottom: 1px solid #bebaba;
+    }
+    #usages div {
+        border-bottom: 1px solid rgb(154, 154, 154);
+        display: inline-block;
+        width: 428px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    #usages p a {
+        color: grey;
+        font-size: 10px;
+        padding: 4px;
+        background-color: #e6e8ea;
+        border-bottom: 1px solid grey;
+    }
+
+footer {
+   display: inline-block;
+   position: relative;
+   bottom:60px;
+   width: 700px;
+   height: 16px;
+   margin: 0px 0 80px 200px;
+}
+    footer a {
+        text-decoration: none;
+        color: #75a8d3;
+        margin: 8px 6px;
+    }
+
+#policy {
+    font-size: 10px;
+    margin:20px 2px 0 26px;
+}
+    #policy span {
+        color: #75a8d3;
+    }
+
+#status {
+    position: relative;
+    top: 8px;
+    left: 2px;
+    color: green;
+    font-size: 40px;
+}
+
+.programs {
+    position: absolute;
+}
